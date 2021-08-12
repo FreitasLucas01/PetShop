@@ -240,6 +240,7 @@ textarea{
     display: block;
     margin: auto;
     margin-bottom: 50px;
+    padding-top: 15px;
 }
 
 .final_form{

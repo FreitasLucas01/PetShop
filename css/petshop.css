@@ -231,7 +231,6 @@ input, textarea{
     margin-bottom: 50px;
     border-radius: 5px;
     padding-left: 30px;
-    padding-top: 5px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -253,6 +252,7 @@ textarea{
 }
 
 .button{
+    text-align: center;
     width: 25%;
     font-family: 'Comfortaa', cursive;
 }

@@ -289,9 +289,3 @@ footer img{
     font-size: 40px;
     padding: 100px;
 }
-
-@media screen and (max-width: 750px){
-    .bar{
-        display: block;
-    }
-}

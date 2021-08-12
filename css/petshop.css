@@ -242,10 +242,6 @@ textarea{
     margin-bottom: 50px;
 }
 
-::placeholder{
-    font-family: 'Comfortaa', cursive;
-}
-
 .final_form{
     max-width: 63%;
     margin: auto;

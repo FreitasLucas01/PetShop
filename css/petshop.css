@@ -37,6 +37,7 @@ li{
 }
 
 header a{
+
     text-decoration: none;
 }
 
@@ -129,7 +130,7 @@ header a:visited{
     margin-bottom: 2px;
 }
 
-.goods{
+#goods{
 
     background-image: url(../assets/products.png);
     display: flex;

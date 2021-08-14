@@ -23,13 +23,17 @@ body{
     flex-wrap: wrap;
 }
 
-.menu{
+ul{
     display: flex;
     align-items: center;
 }
 
-li{
+ul a{
+    text-decoration: none;
+    color: black;
+}
 
+li{
     padding-top: 30px ;
     margin-left: 50px;
     padding-right: 40px;
@@ -37,12 +41,7 @@ li{
 }
 
 header a{
-
     text-decoration: none;
-}
-
-header a:visited{
-    color: black;
 }
 
 .logo{
@@ -54,23 +53,23 @@ header a:visited{
     width: 55px;
 }
 
-.white_dog{
-    width: 100%;
-}
-
-.dog_photo{
+.dog_principal{
     background-image: url(../assets/barra1.png);
     text-align: center;
     margin-top: 20px;
 }
 
-.dog_photo h2{
+.dog_principal img{
+    width: 100%
+}
+
+.dog_principal h2{
     font-size: 62px;
     margin-top: 0;
     padding-top: 45px;
 }
 
-.dog_photo p{
+.dog_principal p{
     max-width: 100%;
     font-size: 40px;
     margin: 0;
@@ -80,53 +79,45 @@ header a:visited{
     padding-bottom: 70px ;
 }
 
-.container_middle{
+#container_middle{
     margin: auto;
     max-width: 1500px;
-}
-
-.few_of_services{
     text-align: center;
 }
 
-.flex{
+
+#container_middle h2{
+    font-size: 60px;
+    margin: 80px;
+    padding: 10px;
+}
+
+.dog_flexbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: left;
-
 }
 
-.flex img{
+.dog_flexbox img{
     width: 650px;
 }
 
-.flex p{
+.dog_flexbox img:hover{
+    opacity: 0.5;
+}
+
+.dog_flexbox p{
 
     font-size: 40px;
-}
-
-.text{
-    text-align: center;
-}
-
-.text_margin{
     margin-bottom: 100px;
-}
-
-.few_of_services{
-    font-size: 60px;
-    margin: 80px;
 }
 
 .background_products h2{
     background-image: url(../assets/barra1.png);
     font-size: 60px;
     text-align: center;
-    padding: 10px;
-}
-
-.text_products{
+    padding: 20px;
     margin-bottom: 2px;
 }
 
@@ -135,10 +126,25 @@ header a:visited{
     background-image: url(../assets/products.png);
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-between;
-    padding-top: 50px;
-    height: 1500px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 70px;
+
+}
+
+#goods img{
+    max-width: 450px;
+}
+
+.bone_img{
+    background-color: white;
+    border-radius: 10px;
+    max-height: 450px;
+}
+
+#goods a{
+    text-decoration: none;
+    color: black;
 }
 
 .products_margin{
@@ -146,22 +152,6 @@ header a:visited{
     margin-right: 50px;
     text-align:center;
     font-size: 34px;
-}
-
-.img_goods{
-    max-width: 400px;
-}
-
-.bone{
-    background-color: white;
-    max-width: 390px;
-    border-radius: 5px;
-}
-
-.bag_link{
-
-    text-decoration: none;
-    color: black;
 }
 
 .bag_text:hover{
@@ -188,7 +178,7 @@ header a:visited{
     text-align: center;
 }
 
-.our_history{
+#our_history{
     text-align: center;
 }
 
@@ -243,7 +233,7 @@ textarea{
     padding-top: 15px;
 }
 
-.final_form{
+#final_form{
     max-width: 63%;
     margin: auto;
 }

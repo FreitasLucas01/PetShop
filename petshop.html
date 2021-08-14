@@ -15,75 +15,76 @@
 
     <div class="container">
         <header>
-            <nav>
-                <div class="bar">
-                    <div>
-                        <a href="https://www.adotepetz.com.br/"> <img class="logo" src="./assets/logo.png"
-                                alt="logo"></a>
-                    </div>
-                    <ul class="menu">
-                        <a href="https://www.amparastore.com/">
-                            <li>Produtos</li>
-                        </a>
-                        <a href="">
-                            <li>Serviços</li>
-                        </a>
-                        <a href="http://www.adoteumgatinho.com.br/quero-ajudar-a-aug">
-                            <li>Sobre</li>
-                        </a>
-                        <a href="https://api.whatsapp.com/send?phone=5521966839081">
-                            <li>Contato</li>
-                        </a>
-                        <a href="">
-                            <li>Login</li>
-                        </a>
-                        <a href="#goods">
-                            <li><img class="cart" src="./assets/buy.png" alt=""></li>
-                        </a>
-                    </ul>
+            <nav class="bar">
+                <div>
+                    <a href="https://www.adotepetz.com.br/"> <img class="logo" src="./assets/logo.png" alt="logo"></a>
                 </div>
+                <ul>
+                    <a href="#goods">
+                        <li>Produtos</li>
+                    </a>
+                    <a href="#container_middle">
+                        <li>Serviços</li>
+                    </a>
+                    <a href="#our_history">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="#final_form">
+                        <li>Contato</li>
+                    </a>
+                    <a href="">
+                        <li>Login</li>
+                    </a>
+                    <a href="#goods">
+                        <li><img class="cart" src="./assets/buy.png" alt=""></li>
+                    </a>
+                </ul>
             </nav>
         </header>
 
-        <section class="dog_photo">
-            <img class="white_dog" src="./assets/white_dog.png" alt="">
+        <section class="dog_principal">
+            <img src="./imagens/dog_background.jpg" alt="">
             <h2>Tudo que o seu Pet precisa está aqui!</h2>
             <div class="margin_dog_photo">
                 <p>Com a PetShop, você garante a saúde e bem-estar do seu queridinho com
-                    cuidados de banho, toda, acessórios, medicamentos, alimentação e muito mais!</p>
+                    cuidados de banho, tosa, acessórios, medicamentos, alimentação e muito mais!</p>
             </div>
         </section>
 
-        <section class="container_middle">
-            <div class="text">
-                <h2 class="few_of_services">Alguns dos nossos serviços</h2>
+        <section id="container_middle">
+
+            <h2>Alguns dos nossos serviços</h2>
+
+            <div class="dog_flexbox">
+                <div>
+                    <img src="./imagens/dog_clipping.png" alt="">
+                    <p>Tosa Especializada</p>
+                </div>
+                <div>
+                    <img src="./imagens/dog_bath.png" alt="">
+                    <p>Banho</p>
+                </div>
+                <div>
+                    <img src="./imagens/dog_vaccine.png" alt="">
+                    <p>Vacinas</p>
+                </div>
+                <div>
+                    <img src="./imagens/dog_remedy.png" alt="">
+                    <p>Vermifugação</p>
+                </div>
             </div>
 
-            <div class="flex">
-                <div><img src="./assets/dog_pug.png" alt="">
-                    <p class="text_margin">Tosa Especializada</p>
-                </div>
-                <div><img src="./assets/dog_yellow.png" alt="">
-                    <p class="text_margin">Banho</p>
-                </div>
-                <div><img src="./assets/cat_white.png" alt="">
-                    <p class="text_margin">Vacinas</p>
-                </div>
-                <div><img src="./assets/cat.png" alt="">
-                    <p class="text_margin">Vermifugação</p>
-                </div>
-            </div>
         </section>
 
         <section class="background_products">
-            <h2 class="text_products">Produtos</h2>
+            <h2>Produtos</h2>
         </section>
 
         <section>
             <div id="goods">
                 <div class="products_margin">
-                    <img class="img_goods bone" src="./assets/yellow_bag.png" alt="">
-                    <a class="bag_link" href="#">
+                    <img class="bone_img" src="./imagens/yellow_bag.png" alt="">
+                    <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
                     <p>Osso Gourmet</p>
@@ -91,8 +92,8 @@
                 </div>
 
                 <div class="products_margin">
-                    <img class="img_goods" src="./assets/bolaAtivo 19.png" alt="">
-                    <a class="bag_link" href="#">
+                    <img src="./imagens/bolaAtivo 19.png" alt="">
+                    <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
                     <p>Bolinha</p>
@@ -100,8 +101,8 @@
                 </div>
 
                 <div class="products_margin">
-                    <img class="img_goods" src="./assets/house.png" alt="">
-                    <a class="bag_link" href="#">
+                    <img src="./imagens/house.png" alt="">
+                    <a  href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
                     <p>Casinha</p>
@@ -109,8 +110,8 @@
                 </div>
 
                 <div class="products_margin">
-                    <img class="img_goods" src="./assets/white_bag.png" alt="">
-                    <a class="bag_link" href="#">
+                    <img src="./imagens/white_bag.png" alt="">
+                    <a  href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
                     <p>Petisco</p>
@@ -118,16 +119,16 @@
                 </div>
 
                 <div class="products_margin">
-                    <img class="img_goods" src="./assets/orange_bag.png" alt="">
-                    <a class="bag_link" href="#">
+                    <img src="./imagens/orange_bag.png" alt="">
+                    <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
                     <p>Ração Golden</p>
                     <p class="margin_between_products">R$ 140,00</p>
                 </div>
                 <div class="products_margin">
-                    <img class="img_goods" src="./assets/shirt_cat.png" alt="">
-                    <a class="bag_link" href="#">
+                    <img src="./imagens/shirt_cat.png" alt="">
+                    <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
                     <p>Blusa M</p>
@@ -137,7 +138,7 @@
         </section>
 
         <section>
-            <div class="our_history">
+            <div id="our_history">
                 <h2 class="our_history_text">Nossa história!</h2>
 
                 <div>
@@ -154,9 +155,9 @@
                 </div>
             </div>
             <div class="test">
-                <img class="white" src="./assets/couple_with_dog.png">
+                <img class="white" src="./imagens/couple_with_dog.png">
                 <h2>Entre em contato conosco</h2>
-                <div class="final_form">
+                <div id="final_form">
                     <form method="GET">
                         <input type="text" name="name" placeholder="Nome">
                         <input type="tel" name="tel" placeholder="Telefone">

@@ -100,11 +100,12 @@ li{
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url(/assets/heart.png);
+    background-image: url(../assets/heart.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-right: 25px;
+    margin-right: 24px;
+    /* margin-left: 1px; */
 }
 
 .dog_flexbox img{

@@ -10,6 +10,17 @@ body, li {
 body{
     max-width: 1920px;
     margin: auto;
+ 
+}
+
+p::selection{
+    background-color: #825F8F;
+    color: white;
+}
+
+h2::selection{
+    background-color: #825F8F;
+    color: white;
 }
 
 /* Alinhamento horizontal entre itens do menu e logo */
@@ -137,7 +148,7 @@ li{
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 70px;
-
+    flex-shrink: 0;
 }
 
 #goods img{

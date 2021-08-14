@@ -41,12 +41,13 @@ ul{
 ul a{
     text-decoration: none;
     color: black;
+    margin-left: 50px;
 }
 
 /* Estilização do texto no menu */
 li{
     padding-top: 30px ;
-    margin-left: 50px;
+
     padding-right: 40px;
     font-size: 35px;
 }
@@ -202,7 +203,7 @@ li{
 }
 
 .loren_ipsum{
-    font-size: 34px;
+    font-size: 32px;
     margin: 0;
     padding: 0%;
 }

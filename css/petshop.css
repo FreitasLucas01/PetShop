@@ -110,14 +110,13 @@ li{
 .dog_flexbox p::before{
     content: '';
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
     background-image: url(../assets/heart.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-right: 24px;
-    /* margin-left: 1px; */
 }
 
 .dog_flexbox img{
@@ -225,14 +224,6 @@ form{
     height: 100%;
 }
 
-.test{
-    margin: auto;
-}
-
-.test h2{
-    margin: 80px;
-}
-
 input, textarea{
 
     width: 100%;
@@ -297,3 +288,4 @@ footer img{
     font-size: 40px;
     padding: 100px;
 }
+

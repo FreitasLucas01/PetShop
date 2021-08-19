@@ -45,6 +45,5 @@
 
 <p>Esse projeto é um site com temática de petshop voltado a treinar conceitos como formulário, flexbox, links, e afins, além da criação do layout de forma simples e intuitivo.</p> 
 <hr>
-<br>
 
-<p> Criado por Lucas Freitas </p>
+<p> Criado por Lucas Freitas | <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p>

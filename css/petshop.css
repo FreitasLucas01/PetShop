@@ -44,10 +44,13 @@ ul a{
     margin-left: 50px;
 }
 
+ul a:hover{
+    color: #825F8F;
+}
+
 /* Estilização do texto no menu */
 li{
     padding-top: 30px ;
-
     padding-right: 40px;
     font-size: 35px;
 }

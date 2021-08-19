@@ -1,4 +1,51 @@
-<img src="./assets/logo.png" alt="" srcset="">
+<img src="./assets/logo.png" alt="" srcset=""> <br> <br> <br>
 
-# PetShop
-Criação original de uma página inicial de PetShop em HTML e CSS
+<h1 align="center"> Petshop </h1>
+
+<p align="center">
+    <a href="#demo"> Demonstração</a> •
+    <a href="#func"> Funcionalidade</a> •
+    <a href="#tec"> Tecnologias</a> •
+    <a href="#projeto"> Projeto</a> 
+    <br> <br> <br>
+
+
+
+
+<h3 align="center"> 🚧 Projeto Petshop 🚀 em construção ... 🚧 </h3> <br><br>
+
+<h2 id="demo"> 📷 Demonstração </h2>
+<hr>
+
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop1.gif> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop2.gif> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop3.gif> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop4.gif> </h2>
+
+---
+<br>
+
+<h2 id="func"> ⚙ Funcionalidades </h2>
+<hr>
+ - [x] Formulário de contato <br>
+ - [x] Seleção de texto com tema da página</br>
+ - [x] Transparência em imagens de serviços</br>
+ - [x] Botões com direcionamento <br>
+ - [x] Layout limpo e intuitivo
+ <br> <br> <br>
+
+<h2 id="tec"> 🚀 Tecnologias </h2>
+<hr>
+<p> Esse projeto foi desenvolvido com as seguintes tecnologias: </p><br>
+
+✔️HTML<br><br>
+✔️CSS<br><br>
+
+
+<h2 id="projeto"> 💻 Projeto </h2>
+<hr>
+<p>Esse projeto é um site com temática de petshop voltado a treinar conceitos como formulário, flexbox, links, e afins, além da criação do layout de forma simples e intuitivo.</p> <br>
+
+---
+
+<h3> Criado por Lucas Freitas </h3>

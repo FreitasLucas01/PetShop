@@ -8,9 +8,18 @@
     <a href="#tec"> Tecnologias</a> •
     <a href="#projeto"> Projeto</a> 
     <br> <br> 
+<<<<<<< Updated upstream
 
 
 
+=======
+
+
+
+
+
+
+>>>>>>> Stashed changes
 <h2 id="demo"> 📷 Demonstração </h2>
 
 
@@ -18,6 +27,7 @@
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop2.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop3.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop4.gif> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop5.gif> </h2>
 
 <br>
 
@@ -27,8 +37,14 @@
  - [x] Seleção de texto com tema da página</br>
  - [x] Transparência em imagens de serviços</br>
  - [x] Botões com direcionamento <br>
+<<<<<<< Updated upstream
  - [x] Layout limpo e intuitivo
  <br> <br>
+=======
+ - [x] Layout limpo e intuitivo <br>
+ - [x] Responsividade
+ <br> <br> <br>
+>>>>>>> Stashed changes
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 

@@ -8,18 +8,7 @@
     <a href="#tec"> Tecnologias</a> •
     <a href="#projeto"> Projeto</a> 
     <br> <br> 
-<<<<<<< Updated upstream
 
-
-
-=======
-
-
-
-
-
-
->>>>>>> Stashed changes
 <h2 id="demo"> 📷 Demonstração </h2>
 
 
@@ -37,14 +26,8 @@
  - [x] Seleção de texto com tema da página</br>
  - [x] Transparência em imagens de serviços</br>
  - [x] Botões com direcionamento <br>
-<<<<<<< Updated upstream
- - [x] Layout limpo e intuitivo
- <br> <br>
-=======
- - [x] Layout limpo e intuitivo <br>
- - [x] Responsividade
- <br> <br> <br>
->>>>>>> Stashed changes
+ - [x] Responsividade <br> <br>
+
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 

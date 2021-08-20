@@ -7,12 +7,9 @@
     <a href="#func"> Funcionalidade</a> •
     <a href="#tec"> Tecnologias</a> •
     <a href="#projeto"> Projeto</a> 
-    <br> <br> <br>
+    <br> <br> 
 
 
-
-
-<h3 align="center"> 🚧 Projeto Petshop 🚀 em construção ... 🚧 </h3> <br><br>
 
 <h2 id="demo"> 📷 Demonstração </h2>
 
@@ -31,7 +28,7 @@
  - [x] Transparência em imagens de serviços</br>
  - [x] Botões com direcionamento <br>
  - [x] Layout limpo e intuitivo
- <br> <br> <br>
+ <br> <br>
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
@@ -44,6 +41,7 @@
 <h2 id="projeto"> 💻 Projeto </h2>
 
 <p>Esse projeto é um site com temática de petshop voltado a treinar conceitos como formulário, flexbox, links, e afins, além da criação do layout de forma simples e intuitivo.</p> 
+<br>
 <hr>
-
-<p> Criado por Lucas Freitas | <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p>
+<br>
+<p> Criado por Lucas Freitas | <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p> 

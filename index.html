@@ -5,22 +5,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/petshop.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./assets/paw.png" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet" />
+    <script src="petshop.js"></script>
     <title>PetShop</title>
 </head>
 
 <body>
     <div>
-        <header>
-            <nav>
-                <div class="bar">
+        <header class="bar">
                     <div>
                         <a href="https://www.adotepetz.com.br/">
                             <img class="logo" src="./assets/logo.png" alt="logo" /></a>
                     </div>
-                    <ul>
+                    <ul class="menu">
                         <a href="#goods">
                             <li>Produtos</li>
                         </a>
@@ -43,106 +42,100 @@
                             <li><img class="cart" src="./assets/buy.png" /></li>
                         </a>
                     </ul>
-                </div>
-            </nav>
         </header>
 
-        <section>
-            <div class="dog_principal">
-                <img src="./imagens/dog_background.jpg" alt="Golden retriever" />
+        <section class="dog_principal">
+                <img class="dog-image" src="./imagens/dog_background.jpg" alt="Golden retriever" />
                 <h2>Tudo que o seu Pet precisa está aqui!</h2>
                 <p>
                     Com a PetShop, você garante a saúde e bem-estar do seu queridinho
                     com cuidados de banho, tosa, acessórios, medicamentos, alimentação e
                     muito mais!
                 </p>
-            </div>
         </section>
 
-        <section>
             <div id="container_middle">
                 <h2>Alguns dos nossos serviços</h2>
 
                 <div class="dog_flexbox">
                     <div>
-                        <img src="./imagens/dog_clipping.png" alt="Yorkshire terrier" />
+                        <img class="dogs" src="./imagens/dog_clipping.png" alt="Yorkshire terrier" />
                         <p>Tosa Especializada</p>
                     </div>
                     <div>
-                        <img src="./imagens/dog_bath.png" alt="Shiba inu" />
+                        <img class="dogs" src="./imagens/dog_bath.png" alt="Shiba inu" />
                         <p>Banho</p>
                     </div>
                     <div>
-                        <img src="./imagens/dog_vaccine.png" alt="Russell Terrier" />
+                        <img class="dogs" src="./imagens/dog_vaccine.png" alt="Russell Terrier" />
                         <p>Vacinas</p>
                     </div>
                     <div>
-                        <img src="./imagens/dog_remedy.png" alt="Border Collie" />
+                        <img class="dogs" src="./imagens/dog_remedy.png" alt="Border Collie" />
                         <p>Vermifugação</p>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section>
-            <div class="background_products">
+        <section class="background_products">
+
                 <h2>Produtos</h2>
-            </div>
+
         </section>
 
         <section>
             <div id="goods">
                 <div class="products_margin">
-                    <img class="bone_img" src="./imagens/yellow_bag.png" alt="dog bone" />
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
+                    <img class="bone_img products_margin_img" src="./imagens/yellow_bag.png" alt="dog bone" />
                     <p>Osso Gourmet</p>
                     <p>R$ 18,00</p>
-                </div>
-
-                <div class="products_margin">
-                    <img src="./imagens/bolaAtivo 19.png" alt="dog ball" />
                     <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
+                </div>
+
+                <div class="products_margin">
+                    <img class="products_margin_img" src="./imagens/bolaAtivo 19.png" alt="dog ball" />
                     <p>Bolinha</p>
                     <p>R$ 9,00</p>
-                </div>
-
-                <div class="products_margin">
-                    <img src="./imagens/house.png" alt="dog house" />
                     <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
+                </div>
+
+                <div class="products_margin">
+                    <img class="products_margin_img" src="./imagens/house.png" alt="dog house" />
                     <p>Casinha</p>
                     <p>R$ 200,00</p>
-                </div>
-
-                <div class="products_margin">
-                    <img src="./imagens/white_bag.png" alt="cat snack" />
                     <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
+                </div>
+
+                <div class="products_margin">
+                    <img class="products_margin_img" src="./imagens/white_bag.png" alt="cat snack" />
                     <p>Petisco</p>
                     <p>R$ 12,00</p>
+                    <a href="#">
+                        <p class="bag_text">Adicionar a sacola</p>
+                    </a>
                 </div>
 
                 <div class="products_margin">
-                    <img src="./imagens/orange_bag.png" alt="dog food" />
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
+                    <img class="products_margin_img" src="./imagens/orange_bag.png" alt="dog food" />
                     <p>Ração Golden</p>
                     <p>R$ 140,00</p>
-                </div>
-                <div class="products_margin">
-                    <img src="./imagens/shirt_cat.png" alt="cart cloth" />
                     <a href="#">
                         <p class="bag_text">Adicionar a sacola</p>
                     </a>
+                </div>
+                <div class="products_margin">
+                    <img class="products_margin_img" src="./imagens/shirt_cat.png" alt="cart cloth" />
                     <p>Blusa M</p>
                     <p>R$ 60,00</p>
+                    <a href="#">
+                        <p class="bag_text">Adicionar a sacola</p>
+                    </a>
                 </div>
             </div>
         </section>
@@ -172,13 +165,13 @@
                         <form method="GET">
                             <input type="text" name="name" placeholder="Nome" />
                             <input type="tel" name="tel" placeholder="Telefone" />
-                            <input type="email" name="email" placeholder="E-mail" />
+                            <input type="email" name="email" placeholder="E-mail" autocomplete="off" />
                             <input type="subject" name="subject" placeholder="Assunto" />
                             <textarea name="" id="" cols="30" rows="10"
                                 placeholder="Como podemos te ajudar?"></textarea>
-                            <div>
-                                <input class="button" type="submit" />
-                                <input class="button" type="reset" value="Limpar" />
+                            <div class="container-button">
+                                <input class="button" type="submit"/>
+                                <input class="button" type="reset" value="Limpar"/>
                             </div>
                         </form>
                     </div>

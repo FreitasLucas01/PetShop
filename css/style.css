@@ -1,11 +1,14 @@
-
-body, li {
+body, li, ul {
     padding: 0;
     margin: 0;
     list-style: none;
     font-family: 'Comfortaa', cursive;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
 
 p::selection{
     background-color: #825F8F;
@@ -17,40 +20,48 @@ h2::selection{
     color: white;
 }
 
-.bar{
+.navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    padding: 10px 10px 10px 20px;
 }
 
-ul{
+.menu{
     display: flex;
-    align-items: center;
+    gap: 20px;
+    align-items: end;
+    justify-content: center;
 }
 
-ul a{
+.menu li:last-child{
+    gap:0;
+}
+
+.menu img{
+    padding: 0;
+    margin: 0;
+}
+
+.menu a{
     text-decoration: none;
     color: black;
-    margin-left: 70px;
 }
 
-ul a:hover{
+.menu a:hover{
     color: #825F8F;
 }
 
-li{
+.menu li{
     font-size: 20px;
 }
 
 .logo{
-    width:130px;
-    padding-left: 20px;
-    padding-bottom: 15px;
+    max-width:150px;
 }
 
 .cart{
-    width: 35px;
-    padding-right: 20px;
+    max-width: 30px;
 }
 
 .cart_word{
@@ -135,24 +146,26 @@ li{
     margin-bottom: 2px;
 }
 
-#goods{
+.goods-bg{
     background-color: #EACDED;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 20px;
+}
+
+#goods{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px 0;
+    align-items: center;
 }
 
 #goods img{
-    max-width: 280px;
+    max-width: 250px;
 }
 
-.bone_img{
-    background-color: white;
-    border-radius: 4px;
-    max-height: 280px;
+#goods p:nth-child(4){
+    margin-top: 25px;
 }
 
 #goods a{
@@ -160,22 +173,29 @@ li{
     color: black;
 }
 
-.products_margin{
+.bone_img{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.goods-info{
+    margin: 0 auto;
     text-align:center;
-    font-size: 16px;
+    font-size: 1rem;
+    padding: 10px;
 }
 
-.bag_text:hover{
-    background-color: #825F8F;
-    color: white;
-}
-
-.bag_text{
+.goods-info a{
     background-color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 50px;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.goods-info a:hover{
+    background-color: #825F8F;
+    color: white;
 }
 
 #our_history h2{
@@ -237,8 +257,10 @@ textarea{
 }
 
 .button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
     text-align: center;
-    max-width: 25%;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -254,7 +276,14 @@ footer{
 
 footer img{
     max-width: 30px;
-    margin: 25px;
+    padding: 10px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
 }
 
 .facebook{
@@ -264,37 +293,58 @@ footer img{
 .final{
     background-color: #F6F6F6;
     color: #B7B7B7;
-    padding: 35px;
+    padding-bottom: 35px;
 }
 
-@media screen and (max-width: 1070px) {
+@media (max-width:850px) {
 
-    ul a{
-
-        margin-left: 35px;
+    #goods{
+        max-width: 700px;
+        grid-template-columns: repeat(2 , 1fr);
     }
-    
 }
 
-@media screen and (max-width:930px) {
-
-    ul a{
-
-        margin-left: 20px;
+@media (max-width:800px){
+    .menu{
+        gap: 10px;
     }
-
-    li{
-        margin-left: 10px;
+    .menu li{
+        font-size: 1rem;
     }
 
     .cart{
-        margin-right: 10px;
+        max-width: 25px;
     }
-    
 }
 
+@media (max-width:600px){
+    #goods{
+        max-width: 700px;
+        grid-template-columns: 1fr;
+    }
 
-@media screen and (max-width:840px) {
+    #goods img{
+        max-width: 350px;
+    }
+
+    .goods-info a{
+        padding: 10px 40px;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .navbar{
+        padding: 10px 10px 10px 10px;
+    }
+
+    .logo{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .menu{
+        gap: 0px;
+    }
 
     .cart{
         display: none;
@@ -304,18 +354,13 @@ footer img{
         display: block;
     }
 
-    .bar{
+    .navbar{
         display: block;
         text-align: center;
         max-width: 100%;
     }
 
-    .logo{
-        padding: 10px;
-        margin-right: 22px;
-    }
-
-    ul{
+    .menu{
         display: block;
         text-align: center;
         padding: 0;
@@ -323,7 +368,7 @@ footer img{
         max-width: 100%;
     }
 
-    ul a{
+    .menu a{
         display: block;
         margin: auto;
         margin-bottom: 10px;
@@ -333,12 +378,12 @@ footer img{
         padding: 5px 0;
     }
 
-    ul a:hover{
+    .menu a:hover{
         background-color: #825F8F;
         color: white;
     }
 
-    li{
+    .menu li{
         font-size: 23px;
     }
 
@@ -392,7 +437,7 @@ footer img{
     }
 }
 
-@media screen and (max-width:368px){
+@media (max-width:400px){
     .dogs{
        max-width: 90%;
        display: block;

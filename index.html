@@ -8,186 +8,166 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./assets/paw.png" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet" />
-    <script src="petshop.js"></script>
     <title>PetShop</title>
 </head>
 
 <body>
-    <div>
-        <header class="bar">
-                    <div>
-                        <a href="https://www.adotepetz.com.br/">
-                            <img class="logo" src="./assets/logo.png" alt="logo" /></a>
-                    </div>
-                    <ul class="menu">
-                        <a href="#goods">
-                            <li>Produtos</li>
-                        </a>
-                        <a href="#container_middle">
-                            <li>Serviços</li>
-                        </a>
-                        <a href="#our_history">
-                            <li>Sobre</li>
-                        </a>
-                        <a href="#final_form">
-                            <li>Contato</li>
-                        </a>
-                        <a href="">
-                            <li>Login</li>
-                        </a>
-                        <a href="#" class="cart_word">
-                            <li>Carrinho</li>
-                        </a>
-                        <a href="#goods" class="cart">
-                            <li><img class="cart" src="./assets/buy.png" /></li>
-                        </a>
-                    </ul>
-        </header>
+    <header>
+        <nav class="navbar">
+            <div>
+                <a href="https://www.adotepetz.com.br/">
+                    <img class="logo" src="./assets/logo.png" alt="logo" /></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#goods">Produtos</a></li>
 
-        <section class="dog_principal">
-                <img class="dog-image" src="./imagens/dog_background.jpg" alt="Golden retriever" />
-                <h2>Tudo que o seu Pet precisa está aqui!</h2>
-                <p>
-                    Com a PetShop, você garante a saúde e bem-estar do seu queridinho
-                    com cuidados de banho, tosa, acessórios, medicamentos, alimentação e
-                    muito mais!
+                <li><a href="#container_middle">Serviços</a></li>
+
+                <li><a href="#our_history">Sobre</a></li>
+
+                <li><a href="#final_form">Contato</a></li>
+
+                <li><a href="#">Login</a></li>
+
+                <li class="cart"> <a href="#goods"><img src="./assets/buy.png" /></a></li>
+
+                <li><a href="#" class="cart_word">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="dog_principal">
+        <img class="dog-image" src="./imagens/dog_background.jpg" alt="Golden retriever" />
+        <h2>Tudo que o seu Pet precisa está aqui!</h2>
+        <p>
+            Com a PetShop, você garante a saúde e bem-estar do seu queridinho
+            com cuidados de banho, tosa, acessórios, medicamentos, alimentação e
+            muito mais!
+        </p>
+    </section>
+
+    <section id="container_middle">
+        <h2>Alguns dos nossos serviços</h2>
+
+        <div class="dog_flexbox">
+            <div>
+                <img class="dogs" src="./imagens/dog_clipping.png" alt="Yorkshire terrier" />
+                <p>Tosa Especializada</p>
+            </div>
+            <div>
+                <img class="dogs" src="./imagens/dog_bath.png" alt="Shiba inu" />
+                <p>Banho</p>
+            </div>
+            <div>
+                <img class="dogs" src="./imagens/dog_vaccine.png" alt="Russell Terrier" />
+                <p>Vacinas</p>
+            </div>
+            <div>
+                <img class="dogs" src="./imagens/dog_remedy.png" alt="Border Collie" />
+                <p>Vermifugação</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="background_products">
+
+        <h2>Produtos</h2>
+
+    </section>
+
+    <section class="goods-bg">
+        <section id="goods">
+            <div class="goods-info">
+                <img class="bone_img products_margin_img" src="./imagens/yellow_bag.png" alt="dog bone" />
+                <p>Osso Gourmet</p>
+                <p>R$ 18,00</p>
+                <p> <a href="#">Adicionar a sacola</a></p>
+            </div>
+
+            <div class="goods-info">
+                <img class="products_margin_img" src="./imagens/bolaAtivo 19.png" alt="dog ball" />
+                <p>Bolinha</p>
+                <p>R$ 9,00</p>
+                <p> <a href="#">Adicionar a sacola</a></p>
+            </div>
+
+            <div class="goods-info">
+                <img class="products_margin_img" src="./imagens/house.png" alt="dog house" />
+                <p>Casinha</p>
+                <p>R$ 200,00</p>
+                <p> <a href="#">Adicionar a sacola</a></p>
+            </div>
+
+            <div class="goods-info">
+                <img class="products_margin_img" src="./imagens/white_bag.png" alt="cat snack" />
+                <p>Petisco</p>
+                <p>R$ 12,00</p>
+                <p> <a href="#">Adicionar a sacola</a></p>
+            </div>
+
+            <div class="goods-info">
+                <img class="products_margin_img" src="./imagens/orange_bag.png" alt="dog food" />
+                <p>Ração Golden</p>
+                <p>R$ 140,00</p>
+                <p> <a href="#">Adicionar a sacola</a></p>
+            </div>
+            <div class="goods-info">
+                <img class="products_margin_img" src="./imagens/shirt_cat.png" alt="cart cloth" />
+                <p>Blusa M</p>
+                <p>R$ 60,00</p>
+                <p> <a href="#">Adicionar a sacola</a></p>
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <div id="our_history">
+            <h2>Nossa história!</h2>
+            <div>
+                <p class="loren_ipsum">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                    tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
+                    consequat. Duis autem vel eum iriure dolorin hendrerit in
+                    vulputate velit esse molestie consequat, vel illum dolore eu
+                    feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                    dignissim qui blandit praesent luptatum zzril delenit augue duis
+                    dolore te feugait nulla
                 </p>
-        </section>
-
-            <div id="container_middle">
-                <h2>Alguns dos nossos serviços</h2>
-
-                <div class="dog_flexbox">
-                    <div>
-                        <img class="dogs" src="./imagens/dog_clipping.png" alt="Yorkshire terrier" />
-                        <p>Tosa Especializada</p>
-                    </div>
-                    <div>
-                        <img class="dogs" src="./imagens/dog_bath.png" alt="Shiba inu" />
-                        <p>Banho</p>
-                    </div>
-                    <div>
-                        <img class="dogs" src="./imagens/dog_vaccine.png" alt="Russell Terrier" />
-                        <p>Vacinas</p>
-                    </div>
-                    <div>
-                        <img class="dogs" src="./imagens/dog_remedy.png" alt="Border Collie" />
-                        <p>Vermifugação</p>
-                    </div>
+            </div>
+        </div>
+        <div class="container_form">
+            <img class="white_background" src="./imagens/couple_with_dog.png" />
+            <h2>Entre em contato conosco</h2>
+            <div class="form_width">
+                <div id="final_form">
+                    <form method="GET">
+                        <input type="text" name="name" placeholder="Nome" />
+                        <input type="tel" name="tel" placeholder="Telefone" />
+                        <input type="email" name="email" placeholder="E-mail" autocomplete="off" />
+                        <input type="subject" name="subject" placeholder="Assunto" />
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Como podemos te ajudar?"></textarea>
+                        <div class="container-button">
+                            <button class="button" type="submit">Enviar</button>
+                            <button class="button" type="reset">Limpar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
+        </div>
+    </section>
 
-        <section class="background_products">
-
-                <h2>Produtos</h2>
-
-        </section>
-
-        <section>
-            <div id="goods">
-                <div class="products_margin">
-                    <img class="bone_img products_margin_img" src="./imagens/yellow_bag.png" alt="dog bone" />
-                    <p>Osso Gourmet</p>
-                    <p>R$ 18,00</p>
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
-                </div>
-
-                <div class="products_margin">
-                    <img class="products_margin_img" src="./imagens/bolaAtivo 19.png" alt="dog ball" />
-                    <p>Bolinha</p>
-                    <p>R$ 9,00</p>
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
-                </div>
-
-                <div class="products_margin">
-                    <img class="products_margin_img" src="./imagens/house.png" alt="dog house" />
-                    <p>Casinha</p>
-                    <p>R$ 200,00</p>
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
-                </div>
-
-                <div class="products_margin">
-                    <img class="products_margin_img" src="./imagens/white_bag.png" alt="cat snack" />
-                    <p>Petisco</p>
-                    <p>R$ 12,00</p>
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
-                </div>
-
-                <div class="products_margin">
-                    <img class="products_margin_img" src="./imagens/orange_bag.png" alt="dog food" />
-                    <p>Ração Golden</p>
-                    <p>R$ 140,00</p>
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
-                </div>
-                <div class="products_margin">
-                    <img class="products_margin_img" src="./imagens/shirt_cat.png" alt="cart cloth" />
-                    <p>Blusa M</p>
-                    <p>R$ 60,00</p>
-                    <a href="#">
-                        <p class="bag_text">Adicionar a sacola</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div id="our_history">
-                <h2>Nossa história!</h2>
-                <div>
-                    <p class="loren_ipsum">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-                        erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-                        consequat. Duis autem vel eum iriure dolorin hendrerit in
-                        vulputate velit esse molestie consequat, vel illum dolore eu
-                        feugiat nulla facilisis at vero eros et accumsan et iusto odio
-                        dignissim qui blandit praesent luptatum zzril delenit augue duis
-                        dolore te feugait nulla
-                    </p>
-                </div>
-            </div>
-            <div class="container_form">
-                <img class="white_background" src="./imagens/couple_with_dog.png" />
-                <h2>Entre em contato conosco</h2>
-                <div class="form_width">
-                    <div id="final_form">
-                        <form method="GET">
-                            <input type="text" name="name" placeholder="Nome" />
-                            <input type="tel" name="tel" placeholder="Telefone" />
-                            <input type="email" name="email" placeholder="E-mail" autocomplete="off" />
-                            <input type="subject" name="subject" placeholder="Assunto" />
-                            <textarea name="" id="" cols="30" rows="10"
-                                placeholder="Como podemos te ajudar?"></textarea>
-                            <div class="container-button">
-                                <input class="button" type="submit"/>
-                                <input class="button" type="reset" value="Limpar"/>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
+    <footer>
+        <div class="footer-icons">
             <a href="https://api.whatsapp.com/send?phone=5521966839081"><img src="./assets/wppAtivo 31.png"
                     alt="" /></a>
             <a href="https://www.instagram.com/caarp_/"><img src="./assets/instaAtivo 32.png" alt="" /></a>
             <a href="https://web.facebook.com/Caarp-Abrigo-de-Animais-1432057460433304/"><img class="facebook"
                     src="./assets/fbAtivo 33.png" alt="" /></a>
-            <div class="final">DESIGN E PROGRAMAÇÃO POR LUCAS FREITAS</div>
-        </footer>
-    </div>
+        </div>
+        <div class="final">DESIGN E PROGRAMAÇÃO POR LUCAS FREITAS</div>
+    </footer>
 </body>
 
 </html>

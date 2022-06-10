@@ -5,33 +5,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./assets/paw.png" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet" />
+    <script defer src="script.js"></script>
     <title>PetShop</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div>
-                <a href="./">
-                    <img class="logo" src="./assets/logo.png" alt="logo" /></a>
-            </div>
-            <ul class="menu">
-                <li><a href="#goods">Produtos</a></li>
+    <header class="header" id="header">
+        <div>
+            <a href="./">
+                <img class="logo" src="./assets/logo.png" alt="logo" /></a>
+        </div>
+        <nav>
+            <button id="btn-mobile" aria-label="Abrir Menu" aria-controls="menu" aria-expanded="false">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </button>
+            <ul class="menu" role="menu">
+                <li><a href="#servicos">Serviços</a></li>
 
-                <li><a href="#container_middle">Serviços</a></li>
+                <li><a href="#produtos">Produtos</a></li>
 
-                <li><a href="#our_history">Sobre</a></li>
+                <li><a href="#sobre">Sobre</a></li>
 
-                <li><a href="#final_form">Contato</a></li>
+                <li><a href="#contato">Contato</a></li>
 
-                <li><a href="#">Login</a></li>
+                <li><a href="./">Login</a></li>
 
-                <li class="cart"> <a href="#goods"><img src="./assets/buy.png" /></a></li>
+                <li class="cart"> <a href="./"><img src="./assets/buy.png" /></a></li>
 
-                <li><a href="#" class="cart_word">Carrinho</a></li>
+                <li><a href="./" class="cart_word">Carrinho</a></li>
             </ul>
         </nav>
     </header>
@@ -46,7 +52,7 @@
         </p>
     </section>
 
-    <section id="container_middle">
+    <section id="servicos">
         <h2>Alguns dos nossos serviços</h2>
 
         <div class="dog_flexbox">
@@ -69,14 +75,14 @@
         </div>
     </section>
 
-    <section class="background_products">
+    <section class="background_products" id="produtos">
 
         <h2>Produtos</h2>
 
     </section>
 
     <section class="goods-bg">
-        <section id="goods">
+        <section class="goods">
             <div class="goods-info">
                 <img class="bone_img products_margin_img" src="./imagens/yellow_bag.png" alt="dog bone" />
                 <p>Osso Gourmet</p>
@@ -121,7 +127,7 @@
     </section>
 
     <section>
-        <div id="our_history">
+        <div id="sobre">
             <h2>Nossa história!</h2>
             <div>
                 <p class="loren_ipsum">
@@ -141,7 +147,7 @@
             <img class="white_background" src="./imagens/couple_with_dog.png" />
             <h2>Entre em contato conosco</h2>
             <div class="form_width">
-                <div id="final_form">
+                <div id="contato">
                     <form method="GET">
                         <input type="text" name="name" placeholder="Nome" />
                         <input type="tel" name="tel" placeholder="Telefone" />

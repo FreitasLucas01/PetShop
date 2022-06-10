@@ -5,6 +5,10 @@ body, li, ul {
     font-family: 'Comfortaa', cursive;
 }
 
+a{
+    display: block;
+}
+
 img{
     display: block;
     max-width: 100%;
@@ -20,11 +24,27 @@ h2::selection{
     color: white;
 }
 
-.navbar{
+.header{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     padding: 10px 10px 10px 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgba(245, 245, 245, 0.7);
+}
+
+#btn-mobile{
+    display: none;
+}
+
+#btn-mobile div{
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 6px 0;
+    transition: 0.3s;
 }
 
 .menu{
@@ -87,19 +107,15 @@ h2::selection{
     margin: 0 auto;
 }
 
-#container_middle{
+#servicos{
     margin: auto;
     max-width: 700px;
     text-align: center;
 }
 
-#container_middle h2{
+#servicos h2{
     font-size: 27px;
     padding: 30px;
-}
-
-#container_middle p{
-    font-size: 20px;
 }
 
 .dog_flexbox{
@@ -114,15 +130,15 @@ h2::selection{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(../assets/heart.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../assets/heart.png) no-repeat center;
     background-size: cover;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .dog_flexbox img{
-    width: 300px;
+    max-width: 300px;
+    padding: 0 10px;
 }
 
 .dog_flexbox img:hover{
@@ -146,7 +162,7 @@ h2::selection{
     background-color: #EACDED;
 }
 
-#goods{
+.goods{
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 0;
@@ -156,15 +172,15 @@ h2::selection{
     align-items: center;
 }
 
-#goods img{
+.goods img{
     max-width: 250px;
 }
 
-#goods p:nth-child(4){
+.goods p:nth-child(4){
     margin-top: 25px;
 }
 
-#goods a{
+.goods a{
     text-decoration: none;
     color: black;
 }
@@ -178,14 +194,12 @@ h2::selection{
     margin: 0 auto;
     text-align:center;
     font-size: 1rem;
-    padding: 10px;
 }
 
 .goods-info a{
     background-color: white;
     border-radius: 5px;
     padding: 10px 50px;
-    margin-top: 20px;
     font-size: 1rem;
 }
 
@@ -194,7 +208,7 @@ h2::selection{
     color: white;
 }
 
-#our_history h2{
+#sobre h2{
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -217,6 +231,7 @@ h2::selection{
 .container_form{
     background-color: #EACDED;
     text-align: center;
+    padding-bottom: 24px;
 }
 
 .container_form h2{
@@ -294,7 +309,7 @@ footer img{
 
 @media (max-width:850px) {
 
-    #goods{
+    .goods{
         max-width: 700px;
         grid-template-columns: repeat(2 , 1fr);
     }
@@ -311,35 +326,89 @@ footer img{
     .cart{
         max-width: 25px;
     }
+
+    .dog_flexbox img{
+        max-width: 250px;
+    }
 }
 
 @media (max-width:600px){
-    #goods{
-        max-width: 700px;
-        grid-template-columns: 1fr;
+    .menu{
+        display: block;
+        position: absolute;
+        width: 50%;
+        top: 65px;
+        right: 0px;
+        height: 0;
+        transition: 0.3s;
+        background: #EACDED;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
     }
 
-    #goods img{
-        max-width: 350px;
+    nav.ativo .menu{
+        height: calc(100vh - 65px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #btn-mobile{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    #btn-mobile.ativo .linha1{
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    #btn-mobile.ativo .linha2{
+        opacity: 0;
+    }
+    #btn-mobile.ativo .linha3{
+        transform: rotate(45deg) translate(-2px, -4px);
+    }
+
+    .menu li{
+        font-size: 1.25rem;
+    }
+
+    .menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .menu a:hover{
+        background: #825F8F;
+        color: black;
+    }
+
+    .goods{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .goods img{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .goods-info{
+        padding: 0 5px;
     }
 
     .goods-info a{
-        padding: 10px 40px;
+        padding: 10px 10px;
         margin-top: 20px;
         font-size: 1rem;
     }
 
-    .navbar{
+    .header{
         padding: 10px 10px 10px 10px;
-    }
-
-    .logo{
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    .menu{
-        gap: 0px;
     }
 
     .cart{
@@ -350,37 +419,8 @@ footer img{
         display: block;
     }
 
-    .navbar{
-        display: block;
-        text-align: center;
-        max-width: 100%;
-    }
-
-    .menu{
-        display: block;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-    }
-
-    .menu a{
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-        background-color: #EACDED;
-        max-width: 95%;
-        border-radius: 5px;
-        padding: 5px 0;
-    }
-
-    .menu a:hover{
-        background-color: #825F8F;
-        color: white;
-    }
-
-    .menu li{
-        font-size: 23px;
+    .dog_flexbox img{
+        max-width: 180px;
     }
 
     .dog_principal h2{
@@ -396,10 +436,14 @@ footer img{
 
     }
 
-    #our_history h2{
+    #sobre h2{
         font-size: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .container_form{
+        padding-bottom: 16px;
     }
 
     .container_form h2{
@@ -410,18 +454,12 @@ footer img{
         max-width: 300px;
     }
 
-    #container_middle h2{
+    #servicos h2{
         font-size: 20px;
     }
 
-    .dog_flexbox img{
-        width: 350px;
-        padding: 1px;
-    }
-
     .dog_flexbox p{
-        text-align: center;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .dog_principal p{

@@ -336,7 +336,7 @@ footer img{
     .menu{
         display: block;
         position: absolute;
-        width: 100%;
+        width: 100vw;
         top: 65px;
         right: 0px;
         height: 0;

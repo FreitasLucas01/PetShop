@@ -471,6 +471,14 @@ footer img{
     }
 }
 
+@media (max-width:430px){
+    .dog_principal h2{
+        max-width: 20ch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media (max-width:400px){
     .dogs{
        max-width: 90%;

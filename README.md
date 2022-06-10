@@ -15,8 +15,6 @@
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop1.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop2.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop3.gif> </h2>
-<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop4.gif> </h2>
-<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/petshop5.gif> </h2>
 
 <br>
 <p align="center">
@@ -26,11 +24,13 @@
 
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
+ - [x] Scroll suave <br>
  - [x] Formulário de contato <br>
  - [x] Seleção de texto com tema da página</br>
  - [x] Transparência em imagens de serviços</br>
  - [x] Botões com direcionamento <br>
  - [x] Responsividade <br> <br>
+ - [x] Acessibilidade <br> <br>
 
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
@@ -39,11 +39,12 @@
 
 ✔️HTML<br><br>
 ✔️CSS<br><br>
+✔️JavaScript<br><br>
 
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
-<p>Esse projeto é um site com temática de petshop voltado a treinar conceitos como formulário, flexbox, links, e afins, além da criação do layout de forma simples e intuitivo.</p> 
+<p>Esse projeto é um site com temática de petshop voltado a treinar conceitos de HTML, CSS e JavaScript.</p> 
 <br>
 <hr>
 <br>

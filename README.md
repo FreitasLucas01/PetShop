@@ -29,7 +29,7 @@
  - [x] Seleção de texto com tema da página</br>
  - [x] Transparência em imagens de serviços</br>
  - [x] Botões com direcionamento <br>
- - [x] Responsividade <br> <br>
+ - [x] Responsividade <br>
  - [x] Acessibilidade <br> <br>
 
 

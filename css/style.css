@@ -66,6 +66,7 @@ h2::selection{
 .menu a{
     text-decoration: none;
     color: black;
+    z-index: 1;
 }
 
 .menu a:hover{

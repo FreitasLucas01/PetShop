@@ -2,6 +2,8 @@ function menuBurger() {
   const btnMobile = document.querySelector(".header button")
 
   function handleClick(e) {
+    if (e.type === "touchstart")
+      e.preventDefault()
     const nav = document.querySelector(".header nav")
     nav.classList.toggle("ativo")
     btnMobile.classList.toggle("ativo")
@@ -14,6 +16,7 @@ function menuBurger() {
   }
 
   btnMobile.addEventListener("click", handleClick)
+  btnMobile.addEventListener("touchstart", handleClick)
 }
 menuBurger()
 

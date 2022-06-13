@@ -1,30 +1,32 @@
-body, li, ul {
+body,
+li,
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
     font-family: 'Comfortaa', cursive;
 }
 
-a{
+a {
     display: block;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
 }
 
-p::selection{
+p::selection {
     background-color: #825F8F;
     color: white;
 }
 
-h2::selection{
+h2::selection {
     background-color: #825F8F;
     color: white;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,11 +37,11 @@ h2::selection{
     background: rgba(245, 245, 245, 0.7);
 }
 
-#btn-mobile{
+#btn-mobile {
     display: none;
 }
 
-#btn-mobile div{
+#btn-mobile div {
     width: 32px;
     height: 2px;
     background: black;
@@ -47,49 +49,49 @@ h2::selection{
     transition: 0.4s;
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 20px;
     align-items: end;
     justify-content: center;
 }
 
-.menu li:last-child{
-    gap:0;
+.menu li:last-child {
+    gap: 0;
 }
 
-.menu img{
+.menu img {
     padding: 0;
     margin: 0;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
     z-index: 1;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #825F8F;
 }
 
-.menu li{
+.menu li {
     font-size: 20px;
 }
 
-.logo{
-    max-width:150px;
+.logo {
+    max-width: 150px;
 }
 
-.cart{
+.cart {
     max-width: 30px;
 }
 
-.cart_word{
+.cart_word {
     display: none;
 }
 
-.dog_principal{
+.dog_principal {
     background-color: #EACDED;
     text-align: center;
     margin: auto;
@@ -97,36 +99,36 @@ h2::selection{
     padding-bottom: 30px;
 }
 
-.dog_principal h2{
+.dog_principal h2 {
     font-size: 27px;
     padding: 0 10px;
 }
 
-.dog_principal p{
+.dog_principal p {
     max-width: 60ch;
     font-size: 20px;
     margin: 0 auto;
 }
 
-#servicos{
+#servicos {
     margin: auto;
     max-width: 700px;
     text-align: center;
 }
 
-#servicos h2{
+#servicos h2 {
     font-size: 27px;
     padding: 30px;
 }
 
-.dog_flexbox{
+.dog_flexbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: left;
 }
 
-.dog_flexbox p::before{
+.dog_flexbox p::before {
     content: '';
     display: inline-block;
     width: 20px;
@@ -137,21 +139,22 @@ h2::selection{
     margin-left: 10px;
 }
 
-.dog_flexbox img{
+.dog_flexbox img {
     max-width: 300px;
     padding: 0 10px;
 }
 
-.dog_flexbox img:hover{
+.dog_flexbox img:hover {
     opacity: 0.75;
+    z-index: 0;
 }
 
-.dog_flexbox p{
+.dog_flexbox p {
     font-size: 20px;
     margin-bottom: 50px;
 }
 
-.background_products h2{
+.background_products h2 {
     background-color: #EACDED;
     font-size: 27px;
     text-align: center;
@@ -159,64 +162,64 @@ h2::selection{
     margin-bottom: 2px;
 }
 
-.goods-bg{
+.goods-bg {
     background-color: #EACDED;
 }
 
-.goods{
+.goods {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 0;
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px 0;
     align-items: center;
 }
 
-.goods img{
+.goods img {
     max-width: 250px;
 }
 
-.goods p:nth-child(4){
+.goods p:nth-child(4) {
     margin-top: 25px;
 }
 
-.goods a{
+.goods a {
     text-decoration: none;
     color: black;
 }
 
-.bone_img{
+.bone_img {
     background-color: white;
     border-radius: 4px;
 }
 
-.goods-info{
+.goods-info {
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
     font-size: 1rem;
 }
 
-.goods-info a{
+.goods-info a {
     background-color: white;
     border-radius: 5px;
     padding: 10px 50px;
     font-size: 1rem;
 }
 
-.goods-info a:hover{
+.goods-info a:hover {
     background-color: #825F8F;
     color: white;
 }
 
-#sobre h2{
+#sobre h2 {
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
 }
 
-.loren_ipsum{
+.loren_ipsum {
     font-size: 30px;
     max-width: 80%;
     margin: auto;
@@ -224,23 +227,24 @@ h2::selection{
     padding: 0%;
 }
 
-.white_background{
+.white_background {
     max-width: 100%;
     background-color: white;
 }
 
-.container_form{
+.container_form {
     background-color: #EACDED;
     text-align: center;
     padding-bottom: 24px;
 }
 
-.container_form h2{
+.container_form h2 {
     font-size: 27px;
     padding: 5px;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     height: 30px;
     border: none;
@@ -250,25 +254,25 @@ input, textarea{
     font-family: 'Comfortaa', cursive;
 }
 
-textarea{
+textarea {
     height: 150px;
     margin-bottom: 20px;
     padding-top: 10px;
 }
 
-.form_width{
+.form_width {
     max-width: 450px;
-    margin:0 auto;
+    margin: 0 auto;
     padding-bottom: 10px;
 }
 
-.container-button{
+.container-button {
     display: flex;
     justify-content: space-around;
     max-width: 100%;
 }
 
-.button{
+.button {
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -276,33 +280,33 @@ textarea{
     font-family: 'Comfortaa', cursive;
 }
 
-.button:hover{
+.button:hover {
     cursor: pointer;
     background-color: #825F8F;
     color: white;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-footer img{
+footer img {
     max-width: 30px;
     padding: 10px;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 30px 0;
 }
 
-.facebook{
+.facebook {
     max-width: 17px;
 }
 
-.final{
+.final {
     background-color: #F6F6F6;
     color: #B7B7B7;
     padding-bottom: 35px;
@@ -310,31 +314,32 @@ footer img{
 
 @media (max-width:850px) {
 
-    .goods{
+    .goods {
         max-width: 700px;
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width:800px){
-    .menu{
+@media (max-width:800px) {
+    .menu {
         gap: 10px;
     }
-    .menu li{
+
+    .menu li {
         font-size: 1rem;
     }
 
-    .cart{
+    .cart {
         max-width: 25px;
     }
 
-    .dog_flexbox img{
+    .dog_flexbox img {
         max-width: 250px;
     }
 }
 
-@media (max-width:600px){
-    .menu{
+@media (max-width:600px) {
+    .menu {
         display: block;
         position: absolute;
         width: 100vw;
@@ -348,158 +353,159 @@ footer img{
         overflow-y: hidden;
     }
 
-    nav.ativo .menu{
+    nav.ativo .menu {
         height: calc(100vh - 65px);
         visibility: visible;
         overflow-y: auto;
     }
 
-    #btn-mobile{
+    #btn-mobile {
         display: block;
         border: none;
         background: none;
         cursor: pointer;
     }
 
-    #btn-mobile.ativo .linha1{
+    #btn-mobile.ativo .linha1 {
         transform: rotate(-45deg) translate(-8px, 8px);
     }
-    #btn-mobile.ativo .linha2{
+
+    #btn-mobile.ativo .linha2 {
         opacity: 0;
     }
-    #btn-mobile.ativo .linha3{
+
+    #btn-mobile.ativo .linha3 {
         transform: rotate(45deg) translate(-2px, -4px);
     }
 
-    .menu li{
+    .menu li {
         font-size: 1.25rem;
     }
 
-    .menu a{
+    .menu a {
         padding: 1rem 0;
         margin: 0 1rem;
         border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
 
-    .menu a:hover{
+    .menu a:hover {
         background: #825F8F;
         color: black;
     }
 
-    .goods{
+    .goods {
         display: flex;
         flex-wrap: wrap;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .goods img{
+    .goods img {
         max-width: 200px;
         margin: 0 auto;
     }
 
-    .goods-info{
+    .goods-info {
         padding: 0 5px;
     }
 
-    .goods-info a{
+    .goods-info a {
         padding: 10px 10px;
         margin-top: 20px;
         font-size: 1rem;
     }
 
-    .header{
+    .header {
         padding: 10px 10px 10px 10px;
     }
 
-    .cart{
+    .cart {
         display: none;
     }
 
-    .cart_word{
+    .cart_word {
         display: block;
     }
 
-    .dog_flexbox img{
+    .dog_flexbox img {
         max-width: 180px;
     }
 
-    .dog_principal h2{
+    .dog_principal h2 {
         font-size: 20px;
     }
 
-    .dog_principal p{
+    .dog_principal p {
         font-size: 16px;
     }
 
-    .loren_ipsum{
+    .loren_ipsum {
         font-size: 16px;
 
     }
 
-    #sobre h2{
+    #sobre h2 {
         font-size: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
 
-    .container_form{
+    .container_form {
         padding-bottom: 16px;
     }
 
-    .container_form h2{
+    .container_form h2 {
         font-size: 20px;
     }
 
-    .form_width{
+    .form_width {
         max-width: 300px;
     }
 
-    #servicos h2{
+    #servicos h2 {
         font-size: 20px;
     }
 
-    .dog_flexbox p{
+    .dog_flexbox p {
         font-size: 15px;
     }
 
-    .dog_principal p{
+    .dog_principal p {
         max-width: 80%;
     }
 
-    .button{
+    .button {
         padding-right: 15px;
     }
 }
 
-@media (max-width:430px){
-    .dog_principal h2{
+@media (max-width:430px) {
+    .dog_principal h2 {
         max-width: 20ch;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-@media (max-width:400px){
-    .dogs{
-       max-width: 90%;
-       display: block;
-       margin: 0 auto;
+@media (max-width:400px) {
+    .dogs {
+        max-width: 90%;
+        display: block;
+        margin: 0 auto;
     }
 
-    .products_margin{
+    .products_margin {
         max-width: 100%;
     }
 
-    .products_margin_img{
+    .products_margin_img {
         width: 90%;
         display: block;
         margin: 0 auto;
     }
 
-    input, textarea{
+    input,
+    textarea {
         width: 80%;
     }
 }
-
-

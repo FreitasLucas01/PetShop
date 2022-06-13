@@ -44,7 +44,7 @@ h2::selection{
     height: 2px;
     background: black;
     margin: 6px 0;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .menu{
@@ -340,7 +340,7 @@ footer img{
         top: 65px;
         right: 0px;
         height: 0;
-        transition: 0.3s;
+        transition: 0.4s;
         background: #EACDED;
         z-index: 1000;
         visibility: hidden;

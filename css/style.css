@@ -34,7 +34,7 @@ h2::selection {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background: rgba(245, 245, 245, 0.7);
+    background: #FFFFFF;
 }
 
 #btn-mobile {
